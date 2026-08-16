@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DashaSMP Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            padding: 25px;
+            text-align: center;
+            background: #171717;
+        }
+
+        h1 {
+            color: #ff3333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        #products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1d1d1d;
+            border: 1px solid #333;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #ffd21f;
+        }
+
+        .price {
+            font-size: 28px;
+            margin: 15px;
+        }
+
+        button {
+            border: 0;
+            border-radius: 8px;
+            padding: 12px 25px;
+            background: #ff3333;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🔥 DashaSMP</h1>
+    <p>متجر السيرفر الرسمي</p>
+    <p>IP: dashasmp.mcsh.io</p>
+</header>
+
+<div class="container">
+
+    <h2>🛒 المتجر</h2>
+
+    <div id="products">
+        جاري تحميل الرتب...
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
