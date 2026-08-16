@@ -1,6 +1,6 @@
 async function loadProducts() {
     try {
-        const response = await fetch("/api/products");
+        const response = await fetch("https://drops-highland-distribute-video.trycloudflare.com/api/products");
 
         if (!response.ok) {
             throw new Error("Failed to load products");
